@@ -14,17 +14,25 @@
         <h1 class="brand">Recipe App</h1>
         <form>
           <input type="text" placeholder="Search Recipe..." />
-          <ion-icon name="search-outline"></ion-icon>
+          <span>
+            <ion-icon name="search-outline"></ion-icon>
+          </span>
         </form>
-        <section class="serach-result">
-          <section class="item">
-            <img src="menu-2.jpg" alt="" />
-            <section class="flex-container">
-              <h2 class="title">This is a recipe</h2>
-              <a href="#">view recipe</a>
-            </section>
-            <p class="item-data">Calories: 120</p>
-          </section>
+        <!-- result list -->
+        <section class="meal-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div class="meal">
+            <!-- item -->
+            <div class="meal-item">
+              <div class="meal-img">
+                <img src="menu-2.jpg" alt="food" />
+              </div>
+              <div class="meal-name">
+                <h3>potato</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
     </section>
