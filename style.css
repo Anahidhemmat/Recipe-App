@@ -1,0 +1,70 @@
+/* Nunito font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Nunito";
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section {
+  min-height: 100vh;
+  width: 100%;
+  padding: 6rem 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  height: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+form {
+  width: 90%;
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 5rem;
+}
+form input {
+  width: 90%;
+  padding: 1rem;
+  border-radius: 10rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+form ion-icon {
+  font-size: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 25.5%;
+  right: 37%;
+}
+
+form input::placeholder {
+  color: #000;
+}
