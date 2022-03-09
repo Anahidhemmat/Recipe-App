@@ -1,15 +1,6 @@
 //selectors
-const container = document.querySelector(".container");
-const searchForm = document.querySelector("form");
-const searchInput = document.querySelector("input");
-const searchResultSection = document.querySelector(".serach-result");
-let searchInputValue;
 
-//form submit
-
-searchForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  searchInputValue = searchInput.value;
-  console.log(searchInputValue);
-  searchForm.reset();
-});
+const searchBtn = document.querySelector("#search-btn");
+const mealList = document.querySelector("#meal");
+const mealDetailContent = document.querySelector(".meal-details-content");
+const recipeCloseBtn = document.querySelector(".recipe-close-btn");
