@@ -41,7 +41,7 @@ img {
   font-weight: 300;
 }
 form {
-  width: 90%;
+  width: 100%;
   max-width: 400px;
   margin: 2rem auto;
   background-color: #fff;
@@ -56,13 +56,16 @@ form input {
   font-size: 1rem;
   background-color: transparent;
 }
-
+form span {
+  position: relative;
+  width: 2rem;
+  height: 1rem;
+}
 form ion-icon {
   font-size: 2rem;
   width: 2rem;
   position: absolute;
-  top: 25.5%;
-  right: 37%;
+  margin-top: 0.5rem;
 }
 
 form input::placeholder {
