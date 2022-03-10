@@ -17,7 +17,10 @@ body {
   color: #fff;
   background-color: #000;
 }
-
+/* container */
+.container {
+  width: 100%;
+}
 /* Title */
 .brand {
   font-size: 3.5rem;
@@ -60,3 +63,60 @@ body {
 }
 
 /*  meal list result  */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem 0 3rem 0;
+  letter-spacing: 0.2rem;
+}
+.results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+.item {
+  background-color: rgb(37, 37, 37);
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+  transition: all 0.3 ease-in;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.item:hover {
+  background-color: rgba(245, 245, 245, 0.842);
+  color: #000;
+  transform: scale(1.1);
+}
+.item .meal-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.about-meal {
+  text-align: center;
+  margin-top: 1rem;
+}
+.about-meal .meal-name {
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+.about-meal .view-recipe-btn {
+  color: #fff;
+  background-color: #404041;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  transition: all 0.3s linear;
+}
+.about-meal .view-recipe-btn:hover {
+  background-color: whitesmoke;
+  color: #000;
+}
