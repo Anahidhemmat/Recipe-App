@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <!-- css costum file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Title -->
+    <h1 class="brand">Recipe App</h1>
+    <section class="container">
+      <!-- search form -->
+      <section class="search-form">
+        <form>
+          <input
+            type="text"
+            class="search-input"
+            placeholder="search ingredients..."
+          />
+          <ion-icon name="search-outline"></ion-icon>
+        </form>
+      </section>
+
+      <!-- meal list result -->
+      <h2 class="title">Your Search Results:</h2>
+      <section class="results">
+        <!-- Items -->
+        <section class="item">
+          <!-- image -->
+          <section class="meal-img">
+            <img src="menu-2.jpg" alt="food" />
+          </section>
+          <!-- meal name and btn -->
+          <section class="about-meal">
+            <h3 class="meal-name">Burger</h3>
+            <a href="#" class="view-recipe">View Recipe</a>
+          </section>
+        </section>
+      </section>
+      <!-- meal details -->
+      <section class="meal-details">
+        <h2 class="recipe-name">burger</h2>
+        <p class="category-name">Category</p>
+        <h3 class="ins-title">instructions</h3>
+        <p class="recipe-ins">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+          provident voluptatum, consequatur tenetur, repellendus nobis quod
+          dolore ipsam ullam, dolorem dicta error ut placeat fugiat eos? Neque
+          libero ipsam a?
+        </p>
+        <img src="menu-2.jpg" alt="food" class="recipe-img" />
+        <a href="#" class="recipe-youtube">Watch Video</a>
+      </section>
+    </section>
+
+    <!-- ioicons cdn -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- JS costum file -->
+    <script src="app.js"></script>
+  </body>
+</html>
