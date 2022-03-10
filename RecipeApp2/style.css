@@ -176,11 +176,11 @@ body {
 }
 .recipe-ins {
   text-align: center;
-  margin: 1rem 8rem 2rem 8rem;
+  margin: 1rem 5rem 2rem 5rem;
   font-size: 1.2rem;
   line-height: 1.9rem;
 }
-.meal-details .recipe-img {
+.recipe-img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -215,4 +215,23 @@ body {
 }
 .display {
   display: flex;
+}
+
+/* media queries */
+
+@media screen and (max-width: 991px) {
+  .recipe-ins {
+    margin: 1rem 2rem;
+  }
+  .meal-details {
+    width: 80%;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .meal-details {
+    width: 80%;
+    height: 60%;
+  }
 }
