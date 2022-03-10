@@ -8,6 +8,7 @@
   border: none;
   outline: none;
   text-decoration: none;
+  transition: all 0.2s linear;
 }
 
 body {
@@ -119,4 +120,17 @@ body {
 .about-meal .view-recipe-btn:hover {
   background-color: whitesmoke;
   color: #000;
+}
+
+/* not found text */
+.not-found {
+  color: #fff;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
 }
