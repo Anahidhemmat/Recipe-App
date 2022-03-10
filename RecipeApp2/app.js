@@ -78,18 +78,3 @@ const getMeal = () => {
       }
     });
 };
-
-// show recipe
-
-// const getMeal = async () => {
-//   const searchValue = searchInput.value;
-//   const response = await fetch(
-//     `https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchValue}`
-//   );
-//   const data = response.json();
-//   console.log(data);
-// };
-
-// fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=egg`)
-//   .then((response) => response.json())
-//   .then((data) => console.log(data));
