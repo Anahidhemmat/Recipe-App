@@ -1,0 +1,62 @@
+/* Indie Flower font */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Patrick+Hand&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Patrick Hand", monospace;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #000;
+}
+
+/* Title */
+.brand {
+  font-size: 3.5rem;
+  margin: 2rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+/* search form */
+.search-form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-form form {
+  background-color: #fff;
+  padding: 1rem 0 1rem 1rem;
+  width: 25rem;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5rem;
+}
+
+.search-form form .search-input {
+  width: 90%;
+  background-color: transparent;
+  font-size: 1.3rem;
+  padding: 0.1rem 0;
+}
+.search-form form .search-input::placeholder {
+  color: #000;
+  font-family: "Patrick Hand";
+}
+.search-form form ion-icon {
+  width: 10%;
+  color: #000;
+  padding: 0 0.5rem;
+  font-size: 1.7rem;
+}
+
+/*  meal list result  */
